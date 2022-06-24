@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>원하는 위치 지정 배치</title>
+    <style>
+        #wrap {
+            position: relative;
+            width: 300px;
+            height: 300px;
+            border: 1px solid #ccc;
+        }
+        .box {
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            background-color: aquamarine;
+        }
+        #cr1 {
+            top: 0;
+            left: 0;
+        }
+        #cr2 {
+            top: 0;
+            right: 0;
+        }
+        #cr3 {
+            bottom: 0;
+            left: 0;
+        }
+        #cr4 {
+            top: 120px;
+            left: 120px;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrap">
+        <div class="box" id="cr1"></div>
+        <div class="box" id="cr2"></div>
+        <div class="box" id="cr3"></div>
+        <div class="box" id="cr4"></div>
+    </div>
+</body>
+</html>
